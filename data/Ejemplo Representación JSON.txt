@@ -1,0 +1,38 @@
+{
+  "title": "Ejemplo básico de visualización de datos en Gosling",
+  "views": [
+    {
+      "layout": "circular",
+      "tracks": [
+        {
+          "data": {
+            "type": "json",
+            "values": [
+              {"x": 1, "y": 5},
+              {"x": 2, "y": 5},
+              {"x": 3, "y": 5},
+              {"x": 4, "y": 5},
+              {"x": 5, "y": 5}
+            ]
+          },
+          "mark": "line",
+          "x": {"field": "x", "type": "genomic", "domain": {"interval": [0, 10]}},
+          "y": {"field": "y", "type": "quantitative"}
+        },
+        {
+          "data": {
+            "type": "json",
+            "values": [
+              {"x": 1, "y": 5},
+              {"x": 5, "y": 5}
+            ]
+          },
+          "mark": "line",
+          "color": {"value": "blue"},
+          "x": {"field": "x", "type": "genomic", "domain": {"interval": [0, 10]}},
+          "y": {"field": "y", "type": "quantitative"}
+        }
+      ]
+    }
+  ]
+}
