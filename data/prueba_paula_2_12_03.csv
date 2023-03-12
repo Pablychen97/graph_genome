@@ -1,14 +1,13 @@
-Base	Row		Start
-A		"human"		1
-T		"human"		2
-G		"human"		3
-A		"human"		4
-C		"chimp"		1
-C		"chimp"		2
-G		"chimp"		3
-C		"chimp"		4
-A		"orag"		1
-T		"orag"		2
-C		"orag"		3
-C		"orag"		4
-
+,Base,Row,Start
+"0,A,""human"",1"
+"1,T,""human"",2"
+"2,G,""human"",3"
+"3,A,""human"",4"
+"4,C,""chimp"",1"
+"5,C,""chimp"",2"
+"6,G,""chimp"",3"
+"7,C,""chimp"",4"
+"8,A,""orag"",1"
+"9,T,""orag"",2"
+"10,C,""orag"",3"
+"11,C,""orag"",4"
